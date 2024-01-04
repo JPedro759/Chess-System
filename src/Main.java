@@ -1,3 +1,7 @@
+import BoardGame.Position;
+
 void main() {
-    System.out.printf("Hello and welcome!");
+    Position pos = new Position(3, 5);
+
+    System.out.println(pos);
 }
