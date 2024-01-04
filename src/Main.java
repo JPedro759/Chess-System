@@ -1,7 +1,8 @@
+import BoardGame.Board;
 import BoardGame.Position;
 
 void main() {
-    Position pos = new Position(3, 5);
+    Board board = new Board(8, 8);
 
-    System.out.println(pos);
+
 }
