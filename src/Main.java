@@ -1,8 +1,8 @@
-import BoardGame.Board;
-import BoardGame.Position;
+
+import Chess.ChessMatch;
 
 void main() {
-    Board board = new Board(8, 8);
+    ChessMatch chessMatch = new ChessMatch();
 
-
+    UI.printBoard(chessMatch.getPieces());
 }
